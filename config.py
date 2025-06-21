@@ -5,9 +5,9 @@ from os import getenv
 
 API_ID = int(getenv("API_ID", "26206749"))
 API_HASH = getenv("API_HASH", "752db80f668272cbd097e1ec90b98c79")
-BOT_TOKEN = getenv("BOT_TOKEN", "8043406036:AAHnUM5EsdOCUvFbE9N7XhM2wg55nXM1dmE")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5640295091").split()))
-MONGO_DB = getenv("MONGO_DB", "mongodb+srv://lebesoxa:PQ7DbvDw49pwQnZD@cluster0.vnik3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB = getenv("MONGO_DB", "")
 LOG_GROUP = getenv("LOG_GROUP", "-1002002335572")
 CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002070573213"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
